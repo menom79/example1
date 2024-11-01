@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1.1 (Python 3.12.6 on win32)" generated="2024-10-30T07:26:59.474493" rpa="false" schemaversion="5">
+<suite id="s1" name="E01" source="E:\projects\testing\example1\E01.robot">
+<test id="s1-t1" name="logintest" line="9">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-10-30T07:27:00.377468" level="INFO">Opening browser 'chrome' to base url 'https://demo.nopcommerce.com/'.</msg>
+<arg>https://demo.nopcommerce.com/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-10-30T07:27:00.377468" elapsed="35.836996"/>
+</kw>
+<status status="PASS" start="2024-10-30T07:27:00.377468" elapsed="35.836996"/>
+</test>
+<status status="PASS" start="2024-10-30T07:26:59.482498" elapsed="36.752917"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="E01">E01</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2024-10-30T07:26:59.466835" level="ERROR">Error in file 'E:\projects\testing\example1\E01.robot' on line 5: Unrecognized section header '*** Varibles ***'. Valid sections: 'Settings', 'Variables', 'Test Cases', 'Tasks', 'Keywords' and 'Comments'.</msg>
+</errors>
+</robot>
